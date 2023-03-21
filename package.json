@@ -1,7 +1,7 @@
 {
     "name": "book-ecommerce",
     "version": "0.1.0",
-    "homepage": "https://avel40m.github.io/book-strore",
+    "homepage": "https://avel40m.github.io/book-store",
     "private": true,
     "dependencies": {
         "@emailjs/browser": "^3.10.0",
