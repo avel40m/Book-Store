@@ -28,7 +28,7 @@ const App = () => {
                 setAuthenticatedUser(null);
             }
         });
-    },[])
+    },[auth])
 
     useEffect(() => {
         let total = 0;

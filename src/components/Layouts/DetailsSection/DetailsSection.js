@@ -16,7 +16,7 @@ const DetailsSection = () => {
   useEffect(() => {
     let newData = BooksData.filter(book => book.id === parseInt(id));
     setBookData(newData[0]);
-  },[]);
+  },[id]);
 
   const handleAddCart = () => {
     let newBook = cartItems.filter(book => book.id === bookData.id);
@@ -32,10 +32,6 @@ const DetailsSection = () => {
       Swal.fire('Primero se tiene que loggear','','error');
     }
   }
-
-  // useEffect(()=>{
-  //   console.log(cartItems);
-  // },[cartItems])
 
   return (
     <section className="detail-section-container">
